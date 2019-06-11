@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calorie-Tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <h1>
+        Track your  daily calorie requirement 
+    </h1>
+    
+        
+</head>
+<body>
+    <table>
+    <tr>
+        <td>Gender:</td>
+        <td><input type="text" id="genders" name="gender" value="male or female" ></td>
+    </tr>
+    <tr>
+        <td>Age:</td>
+        <td><input type="number" id="age"></td>
+    </tr>
+    <tr>
+        <td>Height:</td>
+        <td><input type="number" id="height"></td>
+    </tr>
+    <tr>
+        <td>Weight:</td>
+        <td><input type="number" id="weight"></td>
+    </tr>
+    <tr><td><button id="btn">Submit</button></td></tr>
+    </table>
+
+<p>Your daily requirement of calories are:
+<b id="result">null</b></p>
+<h2>Add food items with various nutrition values it contains:</h2>
+<button id="new">Add</button>
+<table id="table" border="1">
+    <tr>
+        <th>Food items</th>
+        <th>Fats</th>
+        <th>Carbohydrate</th>
+        <th>Protein</th>
+    </tr>
+    
+</table>
+
+<script src="cal.js"></script>
+</body>
+</html>
